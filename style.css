@@ -107,6 +107,7 @@ a:hover {
 }
 .social img{
     width: 50px;
+    height: 50px;
 }
 .social a:hover{
     scale: 1.2;
@@ -133,13 +134,71 @@ a:hover {
     width: auto;
 }
 .skills-img img{
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
 }
 .skills-img{
     margin:16px 0 16px 0;
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
     flex-wrap: wrap;
     gap: 2rem;
+}
+.galery-projects{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.project-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    margin-top: 3rem;
+}
+.project-box img{
+    width: 200px;
+    height: 160px;
+    border-radius: 5px;
+}
+.project-box h3{
+    text-align: center;
+    height: 18px;
+}
+.project-box p{
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    text-align: center;
+    height: 38px;
+}
+.project-box a{
+    color: #707070;
+}
+.project-box a:hover{
+    color: white;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.form input{
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+}
+.form button{
+    width: 80px;
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.form button:hover{
+    background-color: #ff495c;
+    color: white;
+    transition: 0.5s;
 }
